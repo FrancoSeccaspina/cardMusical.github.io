@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: hsl(225, 100%, 94%);
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3.5rem;
+}
+
+.card{
+    width: 18rem;
+    border-radius: 2%;
+}
+
+.card-title{
+    color: hsl(223, 47%, 23%);
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    padding: 1rem;
+}
+
+.card-text{
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+    font-size: 15px;
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+
+.planCard{
+    background: hsl(225, 100%, 98%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 11px;
+    padding: 10px;
+}
+
+.negro{
+    font-weight: 900;
+    margin: auto;
+}
+
+.change a{
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+}
+
+.precio{
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+
+.procesoPago{
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+}
+
+.blanco{
+    width: 92%;
+    display: block;
+    align-items: center;
+    text-align: center;
+    border-radius: 11px;
+    padding: 15px;
+    margin-top: 32px;
+    font-size: 1rem;
+    font-weight: 700;
+    filter: drop-shadow(0 8px 6px rgba(7, 23, 255, .245));
+    transition: ease-in .3s;
+    color: white;
+    background: hsl(245, 75%, 52%);
+}
+
+.gris{
+    display: block;
+    font-weight: 700;
+    margin-top: 2px;
+    transition: ease-in .3s;
+    color:hsl(224, 23%, 55%)
+}
+
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+    width: 100vw;
+    padding-top: 0.8rem;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
